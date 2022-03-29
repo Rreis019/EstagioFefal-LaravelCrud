@@ -1,7 +1,7 @@
 <h1>LaravelCrud</h1>
 
 <p>
-    Pequeno projeto de estagio que inclui login,registrição e crud usando framework laravel
+    Pequeno projeto de estagio que inclui login,registro e crud usando framework laravel
 </p>
 
 <h2>Login</h2>
