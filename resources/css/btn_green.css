@@ -1,0 +1,16 @@
+
+
+#btn_green
+{
+    background-color: rgb(1, 152, 122);
+    color: white;
+    transition: all .2s ease-in-out; 
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+#btn_green:hover
+{
+    background-color: rgb(3, 112, 90);
+    cursor: pointer;
+}

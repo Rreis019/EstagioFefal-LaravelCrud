@@ -1,0 +1,62 @@
+/*include btn_blue*/
+@import "btn_blue.css";
+@import "btn_crudAction.css";
+@import "header.css";
+@import "table_green.css";
+@import "btn_green.css";
+
+
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+main
+{
+	display: flex;
+	flex-direction: row;
+	flex:1;
+}
+
+.content-center
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex:1;
+}
+
+
+input{
+    border: 1px solid gray;
+    padding: 10px 10px;
+}
+
+.form-group
+{
+    margin-bottom: 10px;
+}
+
+
+.form_gray
+{
+    background-color: #f5f5f5;
+    padding: 10px 20px;
+    border-radius: 5px;
+    /*set shadow to form gray*/
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+
+td{
+    padding: 5px;
+}

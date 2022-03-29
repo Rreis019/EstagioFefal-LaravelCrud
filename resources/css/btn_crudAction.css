@@ -1,0 +1,13 @@
+
+
+
+.btn_crud
+{
+    color:green;
+    cursor: pointer;
+}
+
+.btn_crud:hover
+{
+    color:blue;
+}

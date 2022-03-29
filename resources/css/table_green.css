@@ -1,0 +1,44 @@
+#table_green
+{
+    border-collapse:collapse;
+    border: 1px solid #ccc;
+}
+
+#table_green th{
+    background-color: rgb(1, 152, 122);
+    color:White;
+    padding: 10px;
+}
+
+/*set first th with border-radius:5px*/
+#table_green th:first-child{
+    border-radius: 5px 0px 0px 0px;
+}
+
+/*set last th with border-radius:5px*/
+#table_green th:last-child{
+    border-radius: 0px 5px 0px 0px;
+}
+
+/*alterante beetween tr the color gray and red*/
+#table_green tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#table_green td, #table_blue tr
+{
+    padding: 12px;
+}
+
+/*media querie change body color to red*/
+@media screen and (max-width: 620px) {
+    #table_green th{
+        padding: 6px;
+    }
+
+    #table_green td, #table_blue tr
+    {
+        padding: 8px;
+    }
+}
+
